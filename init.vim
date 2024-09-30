@@ -24,11 +24,23 @@ call plug#begin()
 	Plug 'lukas-reineke/indent-blankline.nvim'
 	Plug 'nvim-lualine/lualine.nvim'
 	Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+	Plug 'nvim-treesitter/nvim-treesitter-textobjects'
+	Plug 'omnisyle/nvim-hidesig'
 	Plug 'kassio/neoterm'
 	Plug 'lewis6991/gitsigns.nvim'
 	Plug 'williamboman/mason.nvim'
 	Plug 'williamboman/mason-lspconfig.nvim'
 	Plug 'neovim/nvim-lspconfig'
+	Plug 'rhysd/devdocs.vim'
+	Plug 'rmagatti/goto-preview'
+	Plug 'tpope/vim-bundler'
+	Plug 'tpope/vim-endwise'
+	Plug 'tpope/vim-rails'
+	Plug 'tpope/vim-surround'
+	Plug 'vim-ruby/vim-ruby'
+	Plug 'vim-test/vim-test'
+	Plug 'windwp/nvim-autopairs'
+	Plug 'wsdjeg/vim-fetch'
 
 call plug#end()
 
